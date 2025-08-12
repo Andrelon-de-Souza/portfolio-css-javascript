@@ -16,11 +16,14 @@
 
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/potfolio.css">
 </head>
 
 <body>
 
-    <div class="main">
+    <main class="main">
 
         <header class="header">
             <img src="assets/img/foto-perfil.jpg" alt="Foto do Andrelon" class="photo">
@@ -28,15 +31,61 @@
             <h1 class="title">Olá, <br>Eu sou o Andrelon de Souza Xavier</h1>
 
 
-            <div class="informations">
-                <p>Junior Developer</p>
-                <p>São Paulo - SP</p>
-                <p>(11) 94486-4658</p>
-                <p>dedeh.souza2019@gmail.com</p>
+            <div class="information">
+                <p class="job">Junior Developer</p>
+                <p class="location">São Paulo - SP</p>
+                <p class="phone">
+                    <a href="tel:(11) 94486-4658">(11) 94486-4658</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:dedeh.souza2019@gmail.com">dedeh.souza2019@gmail.com</a>
+                </p>
             </div>
         </header>
 
-    </div>
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <span class="title">
+                    Idiomas
+                </span>
+            </button>
+
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <span class="title">
+                    Portfolio
+                </span>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <span class="title github">Landing Page - Trilha de CSS</span>
+                        <a href="https://andrelon-de-souza.github.io/primeira-landing-page-com-html-e-css/" target="_blank">https://andrelon-de-souza.github.io/primeira-landing-page-com-html-e-css/</a>
+                    </li>
+                    <li>
+                        <span class="title github">Multiverso - Spider Man</span>
+                        <a href="https://andrelon-de-souza.github.io/multiverso-spider-man/" target="_blank">https://andrelon-de-souza.github.io/multiverso-spider-man/</a>
+                    </li>
+                    <li>
+                        <span class="title github">Landing Page - Mundo Invertido</span>
+                        <a href="https://andrelon-de-souza.github.io/landing-page-mundo-invertido/" target="_blank">https://andrelon-de-souza.github.io/landing-page-mundo-invertido/</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="assets/js/acordeon.js  "></script>
 
 </body>
 
