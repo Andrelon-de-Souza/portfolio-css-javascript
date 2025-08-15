@@ -49,13 +49,18 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Landing Page - Trilha de CSS",
+      "url": "https://andrelon-de-souza.github.io/primeira-landing-page-com-html-e-css/ ",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Landing Page - Mundo Invertido",
+      "url": "https://andrelon-de-souza.github.io/landing-page-mundo-invertido/",
+      "github": true
+    },
+    {
+      "name": "Multiverso - Spider Man",
+      "url": "https://andrelon-de-souza.github.io/multiverso-spider-man/",
       "github": true
     }
   ],
